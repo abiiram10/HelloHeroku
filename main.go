@@ -1,6 +1,7 @@
 package main
 
 import (
+	"abiiram10/helloheroku/datos"
 	"encoding/json"
 	"log"
 	"net/http"
@@ -8,6 +9,8 @@ import (
 )
 
 func main() {
+
+	datos.Ini()
 	port := os.Getenv("PORT")
 	if port == "" {
 		log.Fatal("$PORT must be set")
