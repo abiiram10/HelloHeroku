@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/abiiram10/helloheroku/datos"
-	"github.com/abiiram10/helloheroku/memoria/usuarios"
+	"github.com/abiiram10/HelloHeroku/datos"
+	"github.com/abiiram10/HelloHeroku/memoria/usuarios"
 )
 
 // GetUsuariosPOST Obtiene los usuarios de la tabla

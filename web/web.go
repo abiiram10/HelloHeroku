@@ -3,7 +3,7 @@ package web
 import (
 	"os"
 
-	"github.com/abiiram10/helloheroku/web/usuarios"
+	"github.com/abiiram10/HelloHeroku/web/usuarios"
 
 	"log"
 	"net/http"

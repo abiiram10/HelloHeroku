@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/abiiram10/helloheroku/datos"
-	"github.com/abiiram10/helloheroku/memoria"
-	"github.com/abiiram10/helloheroku/web"
+	"github.com/abiiram10/HelloHeroku/datos"
+	"github.com/abiiram10/HelloHeroku/memoria"
+	"github.com/abiiram10/HelloHeroku/web"
 )
 
 func main() {
