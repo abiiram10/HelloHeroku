@@ -1,11 +1,12 @@
 package usuarios
 
 import (
-	"abiiram10/helloheroku/datos"
 	"fmt"
 	"log"
 	"sync"
 	"time"
+
+	"github.com/abiiram10/helloheroku/datos"
 )
 
 //GetUsers obtiene los usuarios

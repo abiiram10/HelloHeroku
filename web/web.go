@@ -1,8 +1,9 @@
 package web
 
 import (
-	"abiiram10/helloheroku/web/usuarios"
 	"os"
+
+	"github.com/abiiram10/helloheroku/web/usuarios"
 
 	"log"
 	"net/http"

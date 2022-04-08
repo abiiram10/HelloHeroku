@@ -1,4 +1,4 @@
-module abiiram10/helloheroku
+module github.com/abiiram10/helloheroku
 
 go 1.18
 

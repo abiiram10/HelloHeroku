@@ -1,12 +1,13 @@
 package usuarios
 
 import (
-	"abiiram10/helloheroku/datos"
-	"abiiram10/helloheroku/datos/usuarios"
 	"fmt"
 	"log"
 	"sync"
 	"time"
+
+	"github.com/abiiram10/helloheroku/datos"
+	"github.com/abiiram10/helloheroku/datos/usuarios"
 )
 
 var (

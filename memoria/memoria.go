@@ -1,8 +1,9 @@
 package memoria
 
 import (
-	"abiiram10/helloheroku/memoria/usuarios"
 	"log"
+
+	"github.com/abiiram10/helloheroku/memoria/usuarios"
 )
 
 //Ini inicia lo de memoria

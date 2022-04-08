@@ -1,11 +1,12 @@
 package usuarios
 
 import (
-	"abiiram10/helloheroku/datos"
-	"abiiram10/helloheroku/memoria/usuarios"
 	"encoding/json"
 	"net/http"
 	"time"
+
+	"github.com/abiiram10/helloheroku/datos"
+	"github.com/abiiram10/helloheroku/memoria/usuarios"
 )
 
 // GetUsuariosPOST Obtiene los usuarios de la tabla
