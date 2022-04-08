@@ -22,7 +22,7 @@ func Ini() {
 }
 
 func obtenerConexion(_DireccionIP string, _Puerto int, _User string, _Pass string, _BDname string) (Conexion *sql.DB, err_open error) {
-	CadenaConexion := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=disable", _DireccionIP, _Puerto, _User, _Pass, _BDname)
+	CadenaConexion := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s", _DireccionIP, _Puerto, _User, _Pass, _BDname)
 	Conexion, err_open = sql.Open("postgres", CadenaConexion)
 	if err_open != nil {
 		log.Println(err_open.Error())
