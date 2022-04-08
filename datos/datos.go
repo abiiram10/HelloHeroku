@@ -13,7 +13,7 @@ var ConexionP *sql.DB
 // Ini inicio del modulo
 func Ini() {
 	var ErrCon error
-	ConexionP, ErrCon = obtenerConexion("ec2-52-3-60-53.compute-1.amazonaws.com	", 5432, "mbpkzcukfieopj", "a61f6ed2bd0a18704352b5f564f0abbf0adee26fed94ba116095c8c4ca577d27", "dc1h538edouk8")
+	ConexionP, ErrCon = obtenerConexion("ec2-52-3-60-53.compute-1.amazonaws.com", 5432, "mbpkzcukfieopj", "a61f6ed2bd0a18704352b5f564f0abbf0adee26fed94ba116095c8c4ca577d27", "dc1h538edouk8")
 	if ErrCon != nil {
 		log.Println("Ocurrio un error")
 	} else {

@@ -34,7 +34,7 @@ func Ini() {
 }
 
 func actualizar() {
-	Timer := time.NewTimer(time.Second * 5)
+	Timer := time.NewTimer(time.Second * 30)
 	for range Timer.C {
 		Timer.Stop()
 
@@ -47,7 +47,7 @@ func actualizar() {
 			FechaMaxima = dtMax
 			fmt.Println("Nueva fecha -" + FechaMaxima.UTC().Format("2006-01-02 15:04:05.999"))
 		}
-		Timer.Reset(time.Second * 5)
+		Timer.Reset(time.Second * 30)
 	}
 }
 
