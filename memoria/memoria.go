@@ -3,7 +3,7 @@ package memoria
 import (
 	"log"
 
-	"github.com/abiiram10/HelloHeroku/memoria/usuarios"
+	"abiiram10/HelloHeroku/memoria/usuarios"
 )
 
 //Ini inicia lo de memoria

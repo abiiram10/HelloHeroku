@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/abiiram10/HelloHeroku/datos"
+	"abiiram10/HelloHeroku/datos"
 )
 
 //GetUsers obtiene los usuarios

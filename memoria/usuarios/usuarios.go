@@ -6,8 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/abiiram10/HelloHeroku/datos"
-	"github.com/abiiram10/HelloHeroku/datos/usuarios"
+	"abiiram10/HelloHeroku/datos/usuarios"
+
+	"abiiram10/HelloHeroku/datos"
 )
 
 var (
